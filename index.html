@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bike SHOP</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css" />
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <section class="container">
+      <h1>Bike SHOP</h1>
+      <section
+      id="carousel-next"
+      class="carousel carousel-fade slide"
+      data-bs-ride="carousel"
+    >
+      <section class="carousel-inner">
+        <section data-bs-interval="3000" class="carousel-item active">
+          <img class="d-block w-100" style="height: 750px;" src="./image/slide1.jpg" alt="Primeiro Slide de uma bike" />
+          <section class="carousel-caption">
+            <h2>Os pequenos atos de cada dia fazem ou desfazem o caráter!</h2>
+          </section>
+        </section>
+        <section data-bs-interval="3000" class="carousel-item">
+          <img class="d-block w-100" style="height: 750px;" src="./image/slide2.jpg" alt="Segundo Slide de uma bike" />
+          <section class="carousel-caption">
+            <h2>Na plenitude da felicidade, cada dia é uma vida interira!</h2>
+            </section>
+        </section>
+        <section data-bs-interval="3000" class="carousel-item">
+          <img class="d-block w-100" style="height: 750px;" src="./image/slide3.jpg" alt="Terceiro Slide de uma bike" />
+          <section class="carousel-caption">
+          <h2>O tempo é um tecido invisível em que se pode bordar tudo!</h2>
+          </section>
+
+        </section>
+      </section>
+      <button
+        data-bs-target="#carousel-next"
+        data-bs-slide="prev"
+        class="carousel-control-prev dark"
+        type="button"
+      >
+        <span class="carousel-control-prev-icon dark"></span>
+      </button>
+      <button
+        data-bs-target="#carousel-next"
+        data-bs-slide="next"
+        class="carousel-control-next"
+        type="button"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
+      <section class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carousel-next"
+          class="active"
+          data-bs-slide-to="0"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carousel-next"
+          data-bs-slide-to="1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carousel-next"
+          data-bs-slide-to="2"
+        ></button>
+      </section>
+    </section>
+    </section>
+  
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
